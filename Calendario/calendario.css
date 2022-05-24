@@ -1,0 +1,67 @@
+/*@import url(reset.css);*/
+
+body{
+    background: rgb(70, 70, 70);
+}
+table{
+    margin-top: 3%;
+}
+thead th{
+    background: rgb(139, 161, 165);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 150%;
+    font-style: italic;
+}
+tbody tr{
+    background: rgb(216, 216, 216);
+    font-size: 135%;
+    text-align: center;
+}
+li{
+    list-style: none;
+    margin-top: 10%;
+    text-align: center;
+    color: #FFFFFF;
+    font-size: 200%;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+/* estilização da parte de cima */
+.custom-shape-divider-top-1653372457 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+.custom-shape-divider-top-1653372457 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 106px;
+    transform: rotateY(180deg);
+}
+.custom-shape-divider-top-1653372457 .shape-fill {
+    fill: #FFFFFF;
+}
+/* estilização da parte de baixo */
+.custom-shape-divider-bottom-1653372383 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+.custom-shape-divider-bottom-1653372383 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 106px;
+}
+.custom-shape-divider-bottom-1653372383 .shape-fill {
+    fill: #FFFFFF;
+}
